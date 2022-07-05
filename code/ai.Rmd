@@ -1,0 +1,23 @@
+---
+title: "Application Insights"
+knit: (function(input_file, encoding) {
+  out_dir <- '../docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'ai.html'))})
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    theme: united
+---
+
+```{r, include=FALSE}
+here::i_am("code/ai.Rmd")
+```
+
+# What is Azure Application Insights? 
+
+# Set up your project to use Application Insights
+
+# Application Insights in use 

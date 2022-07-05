@@ -1,0 +1,22 @@
+---
+name: "Azure Apps"
+output_dir: "../docs"
+output:
+  html_document:
+    theme: united
+navbar:
+  title: "Azure Apps"
+  left:
+    - text: "Introduction"
+      href: index.html
+    - text: "Application Insights"
+      href: ai.html
+    - text: "Diagnostic Logging"
+      href: dl.html
+    - text: "Azure Monitor"
+      href: am.html
+    - text: "Lingo"
+      href: lingo.html
+    - text: "Contact"
+      href: contact.html
+---
